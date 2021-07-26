@@ -41,11 +41,17 @@ public class S4Main {
 		
 		Animal a = animals[1]; //cat
 		
+		tiger = (Tiger)a;
+		tiger.sound();
+		tiger.wash();
+		
 		System.out.println(a instanceof Tiger); //false
 		
-//		Tiger t = (Tiger)a;
-//		t.sound();
-//		t.wash();
+		System.out.println("====================");
+		Animal animal2 = new Animal();
+		Tiger tiger2 = (Tiger)animal2;
+		tiger2.sound();
+		tiger2.wash();
 
 	}
 

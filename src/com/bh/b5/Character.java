@@ -4,7 +4,7 @@ public class Character {
 	
 	Weapon weapon;
 	
-	Weapon [] weapons;
+	Item [] items;
 	
 
 }

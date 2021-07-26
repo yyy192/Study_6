@@ -1,11 +1,10 @@
 package com.bh.b4;
 
-public abstract class Animal {
+public class Animal {
 
 	private String name;
 	private int age;
 	
-	public abstract void sound();
 
 	public String getName() {
 		return name;
@@ -22,4 +21,7 @@ public abstract class Animal {
 	public void setAge(int age) {
 		this.age = age;
 	}
+	
+	public void sound() {};
+	
 }
